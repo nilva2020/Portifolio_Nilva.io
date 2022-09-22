@@ -1,0 +1,56 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family: 'Cormorant', serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+    background-color: rgb(241, 14, 14);
+    color: rgb(247, 239, 239);
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display:inline-block; /* lado a lado*/
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img { /*logo*/
+    height: 40px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10;
+}
+
+#navbar nav {
+    float: right;
+  
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-list li a:hover{
+    border-bottom: 1px solid #fff;
+}
