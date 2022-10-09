@@ -54,3 +54,119 @@ h2 {
 #navbar-list li a:hover{
     border-bottom: 1px solid #fff;
 }
+
+/* banner */
+#main-banner {
+    height: 70vh; /* viewport height = altura da janela de visualização = 1vh corresponde a 1% altura*/
+    background-image: url('../img/bg-projeto.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color:#fff;
+    padding: 50px;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ED1E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: #ED1E;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+/*about*/
+
+#about-section {
+    text-align: center;
+    background-color: #ED1E24;
+    color:#fff;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+/* skills */
+
+#skills-section {
+    margin-top: -100px;
+    background-color: #fff;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* inicio flex-boxer*/
+.skills-container {
+    flex: 1 1 1; /* Aplicando o flex */
+    text-align: center;
+     padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.skills-container h3 {
+    color: #ED1E24;
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ED1E24;
+    border-left: 1px solid #ED1E24;
+    border-bottom: 4px solid #ED1E24;/*efeito 3d bordas*/
+    border-right: 4px solid #ED1E24;/*efeito 3d bordas*/
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: #ED1E24;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p{
+    line-height: 25px;
+}
+
+/*final flex*/
+
+
